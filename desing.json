@@ -1,0 +1,84 @@
+{
+  "header": [
+    "k8db01",
+    "z2itub"
+  ],
+  "body": [
+    "cny1gt",
+    "qqll5s",
+    "ipx6pe",
+    "927e3e",
+    "8yua6r",
+    "uhtx7e",
+    "3wqyer"
+  ],
+  "footer": [
+    "86n9kb",
+    "8fdc4t"
+  ],
+  "headerdefault": [
+    "k8db01",
+    "z2itub"
+  ],
+  "bodydefault": [],
+  "footerdefault": [
+    "86n9kb",
+    "8fdc4t"
+  ],
+  "headtop": "",
+  "headbottom": "",
+  "colors": {
+    "lite": [
+      {
+        "name": "--color1--",
+        "value": "#FFFFFF"
+      },
+      {
+        "name": "--color2--",
+        "value": "#F5F3F1"
+      },
+      {
+        "name": "--bg--",
+        "value": "#F7F3EE"
+      },
+      {
+        "name": "--text--",
+        "value": "#17110C"
+      },
+      {
+        "name": "--button--",
+        "value": "#7D6454"
+      },
+      {
+        "name": "--buttonText--",
+        "value": "#FFFFFF"
+      }
+    ],
+    "dark": [
+      {
+        "name": "--color1--",
+        "value": "#161A21"
+      },
+      {
+        "name": "--color2--",
+        "value": "#1B2029"
+      },
+      {
+        "name": "--bg--",
+        "value": "#0E1116"
+      },
+      {
+        "name": "--text--",
+        "value": "#F0EEEA"
+      },
+      {
+        "name": "--button--",
+        "value": "#8F7A6C"
+      },
+      {
+        "name": "--buttonText--",
+        "value": "#0E1116"
+      }
+    ]
+  }
+}
