@@ -1,0 +1,40 @@
+{
+  "id": "cv6ufbypti",
+  "name": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "description": {
+    "tr": "Ölçüden kurguya; atölyeden odaya.",
+    "en": "From measure to design; from workshop to room.",
+    "ar": "من القياس إلى التصميم؛ من الورشة إلى الغرفة."
+  },
+  "keyword": {
+    "tr": "Mobilya & Ahşap",
+    "en": "Furniture & Wood",
+    "ar": "أثاث وخشب"
+  },
+  "path": "hizmetler",
+  "icon": "work",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "ipx6pe",
+      "uhtx7e"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "date": "2026-11-05T18:57:26.181Z",
+  "update": "2026-11-05T23:44:44.988Z"
+}
