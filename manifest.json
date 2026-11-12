@@ -1,7 +1,7 @@
 {
   "name": "Masif Mobilya",
   "short_name": "Masif Mobily",
-  "description": "Mobilya ve mutfak; görseller temsilîdir.",
+  "description": "Masif Mobilya: ölçüye özel ahşap mobilya, mutfak ve ofis mobilyası; atölyeden montaja. Görseller temsilîdir.",
   "start_url": "/tr/",
   "scope": "/",
   "display": "standalone",

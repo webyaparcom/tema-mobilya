@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -766,7 +772,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1478,9 +1489,9 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
-          "en": "Get a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Keşif isteyin",
+          "en": "Request a survey",
+          "ar": "اطلب معاينة"
         },
         "cta_url": "teklif-al"
       },
@@ -1533,30 +1544,30 @@
         "bg": "var(--mx-site-bg, #ffffff)",
         "radius": "16px",
         "eyebrow": {
-          "tr": "Ahşap mobilya",
-          "en": "Wooden furniture",
-          "ar": "أثاث خشبي"
+          "tr": "Ahşap mobilya atölyesi",
+          "en": "Wooden furniture workshop",
+          "ar": "ورشة أثاث خشبي"
         },
         "title": {
-          "tr": "Ahşap, masanın üstünde",
-          "en": "Wood, on the table",
-          "ar": "خشب على الطاولة"
+          "tr": "Ahşap, ölçünüze göre",
+          "en": "Wood, made to your measure",
+          "ar": "خشب على مقاسك"
         },
         "metin": {
-          "tr": "Masif Mobilya, mobilya ve mutfak üretir. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Masif produces furniture and kitchen. Images are representative and text is fictional.",
-          "ar": "ينتج مسيف أثاث ومطبخ. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Salon, yatak odası, mutfak ve ofis mobilyasını atölyemizde ölçünüze göre üretir, evinizde monte ederiz. Görseller temsilî, metinler kurgusaldır.",
+          "en": "We build living room, bedroom, kitchen and office furniture to your measurements in our workshop and install it in your home. Images are representative and text is fictional.",
+          "ar": "نصنع أثاث الصالون وغرفة النوم والمطبخ والمكتب في ورشتنا حسب مقاساتك ونركّبه في منزلك. الصور تمثيلية والنصوص افتراضية."
         },
         "cta1": {
-          "tr": "Katalog",
-          "en": "Catalog",
-          "ar": "كتالوج"
+          "tr": "Ürünlerimiz",
+          "en": "Our products",
+          "ar": "منتجاتنا"
         },
         "cta1_url": "hizmetler",
         "cta2": {
-          "tr": "Teklif iste",
-          "en": "Request quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Keşif isteyin",
+          "en": "Request a survey",
+          "ar": "اطلب معاينة"
         },
         "cta2_url": "teklif-al",
         "scroll_label": {
@@ -1602,7 +1613,7 @@
         "sure": 1000,
         "title": {
           "tr": "Ne üretiyoruz?",
-          "en": "What do we produce?",
+          "en": "What do we make?",
           "ar": "ماذا نصنع؟"
         },
         "description": {
@@ -1614,62 +1625,62 @@
       "data": [
         {
           "deger": 60,
-          "sonek": "",
+          "sonek": "+",
           "ikon": "chair",
           "etiket": {
-            "tr": "Ota seti",
-            "en": "Room sets",
-            "ar": "أطقم غرف"
+            "tr": "Teslim edilen takım",
+            "en": "Sets delivered",
+            "ar": "طقم مُسلَّم"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
             "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
+            "ar": "قيمة تجريبية افتراضية"
           }
         },
         {
           "deger": 25,
-          "sonek": "",
-          "ikon": "apps",
+          "sonek": "+",
+          "ikon": "kitchen",
           "etiket": {
-            "tr": "Mutfak",
-            "en": "Kitchens",
-            "ar": "مطابخ"
+            "tr": "Mutfak projesi",
+            "en": "Kitchen projects",
+            "ar": "مشروع مطبخ"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
             "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
+            "ar": "قيمة تجريبية افتراضية"
           }
         },
         {
-          "deger": 96,
-          "sonek": "%",
-          "ikon": "brush",
+          "deger": 14,
+          "sonek": "",
+          "ikon": "workspace_premium",
           "etiket": {
-            "tr": "Kurulum kabulü",
-            "en": "Installation acceptance",
-            "ar": "قبول التركيب"
+            "tr": "Atölye geçmişi (yıl)",
+            "en": "Workshop history (years)",
+            "ar": "عمر الورشة (سنوات)"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
             "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
+            "ar": "قيمة تجريبية افتراضية"
           }
         },
         {
           "deger": 4,
           "sonek": "",
-          "ikon": "local_shipping",
+          "ikon": "groups",
           "etiket": {
-            "tr": "Nakliye aracı",
-            "en": "Transport vehicles",
-            "ar": "مركبات نقل"
+            "tr": "Montaj ekibi",
+            "en": "Installation crew",
+            "ar": "فريق التركيب"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
             "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
+            "ar": "قيمة تجريبية افتراضية"
           }
         }
       ],
@@ -1695,98 +1706,98 @@
         "badgebg": "#2E6BFF",
         "badgecolor": "#ffffff",
         "badge": {
-          "tr": "Mobilya & Ahşap",
-          "en": "Furniture & Wood",
-          "ar": "أثاث وخشب"
+          "tr": "Atölye",
+          "en": "Workshop",
+          "ar": "الورشة"
         },
         "title": {
           "tr": "Ne üretiyoruz?",
-          "en": "What do we produce?",
+          "en": "What do we make?",
           "ar": "ماذا نصنع؟"
         },
         "description": {
-          "tr": "Ölçüden kurguya; atölyeden odaya.",
-          "en": "From measure to design; from workshop to room.",
-          "ar": "من القياس إلى التصميم؛ من الورشة إلى الغرفة."
+          "tr": "Ölçüden montaja; atölyeden eve.",
+          "en": "From measuring to installation; from workshop to home.",
+          "ar": "من القياس إلى التركيب؛ ومن الورشة إلى البيت."
         }
       },
       "data": [
         {
           "icon": "chair",
           "name": {
-            "tr": "Ota mobilya",
-            "en": "Room furniture",
-            "ar": "أثاث غرفة"
+            "tr": "Salon ve oturma grupları",
+            "en": "Living room sets",
+            "ar": "أطقم الصالون والجلوس"
           },
           "description": {
-            "tr": "Salon ve yatak odası seti.",
-            "en": "Living and bedroom set.",
-            "ar": "طقم صالة وغرفة نوم."
+            "tr": "Masif iskelet; kumaş ya da deri kaplama seçenekleri.",
+            "en": "Solid-wood frames with fabric or leather upholstery options.",
+            "ar": "هياكل من الخشب الصلب مع خيارات تنجيد بالقماش أو الجلد."
           }
         },
         {
-          "icon": "apps",
+          "icon": "bed",
           "name": {
-            "tr": "Mutfa seti",
-            "en": "Kitchen set",
-            "ar": "طقم مطبخ"
+            "tr": "Yatak odası",
+            "en": "Bedroom",
+            "ar": "غرفة النوم"
           },
           "description": {
-            "tr": "Açık ve kapalı mutfak.",
-            "en": "Open and closed kitchen.",
-            "ar": "مطبخ مفتوح ومغلق."
+            "tr": "Karyola, komodin ve gardırop; ölçüye göre.",
+            "en": "Bed, bedside tables and wardrobe, made to measure.",
+            "ar": "سرير وكومودينات وخزانة ملابس حسب المقاس."
           }
         },
         {
-          "icon": "workspace",
+          "icon": "kitchen",
           "name": {
-            "tr": "İşyeri mobilyası",
-            "en": "Workspace furniture",
-            "ar": "أثاث مساحة عمل"
+            "tr": "Mutfak dolapları",
+            "en": "Kitchen cabinets",
+            "ar": "خزائن المطبخ"
           },
           "description": {
-            "tr": "Masa ve ofis ünitesi.",
-            "en": "Table and office unit.",
-            "ar": "طاولة ووحدة مكتب."
+            "tr": "Alt-üst dolap ve ada; kapak ve tezgâh seçimi birlikte yapılır.",
+            "en": "Base and wall units and islands; doors and worktops are chosen together.",
+            "ar": "وحدات سفلية وعلوية وجزيرة؛ ويُختار الباب وسطح العمل معًا."
           }
         },
         {
-          "icon": "brush",
+          "icon": "desk",
           "name": {
-            "tr": "Kaplama",
-            "en": "Finishing",
-            "ar": "تشطيب"
+            "tr": "Ofis mobilyası",
+            "en": "Office furniture",
+            "ar": "أثاث المكاتب"
           },
           "description": {
-            "tr": "Cila ve kaplama işi.",
-            "en": "Polishing and finishing work.",
-            "ar": "عمل تلميع وتشطيب."
+            "tr": "Çalışma masası, dosya ünitesi ve toplantı masası.",
+            "en": "Desks, filing units and meeting tables.",
+            "ar": "مكاتب عمل ووحدات حفظ وطاولات اجتماعات."
           }
         },
         {
           "icon": "straighten",
           "name": {
-            "tr": "Özel ölçü",
-            "en": "Custom measure",
-            "ar": "قياس خاص"
+            "tr": "Özel ölçü üretim",
+            "en": "Made-to-measure pieces",
+            "ar": "إنتاج حسب المقاس"
           },
           "description": {
-            "tr": "Özelleştirilmiş ölçüye üretim (demo).",
-            "en": "Production to customised measure (demo).",
-            "ar": "إنتاج على قياس مخصص (تجريبي)."
+            "tr": "Odanıza göre çizilen tek parça ya da set; ölçü yerinde alınır.",
+            "en": "A single piece or a set drawn for your room; measurements are taken on site.",
+            "ar": "قطعة واحدة أو طقم يُرسم لغرفتك؛ وتؤخذ المقاسات في الموقع."
           }
         },
         {
-          "icon": "local_shipping",
+          "icon": "handyman",
           "name": {
-            "tr": "Kurulum",
-            "en": "Installation",
-            "ar": "التركيب"
+            "tr": "Montaj ve kurulum",
+            "en": "Assembly and installation",
+            "ar": "التركيب والتجهيز"
           },
           "description": {
-            "tr": "Nakliye ve kurulum.",
-            "en": "Transport and installation.",
-            "ar": "نقل وتركيب."
+            "tr": "Teslimatta evinizde montaj yapılır.",
+            "en": "Furniture is assembled in your home on delivery.",
+            "ar": "يُركَّب الأثاث في منزلك عند التسليم."
           }
         }
       ],
@@ -1814,19 +1825,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
-          "tr": "Nasıl çalışırız?",
-          "en": "How we work",
-          "ar": "كيف نعمل؟"
+          "tr": "Nasıl üretiyoruz?",
+          "en": "How we build",
+          "ar": "كيف نصنع؟"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Ölçüden montaja dört adım",
+          "en": "Four steps from measuring to installation",
+          "ar": "أربع خطوات من القياس إلى التركيب"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "Keşiften teslime aynı akış.",
+          "en": "The same flow from survey to handover.",
+          "ar": "المسار نفسه من المعاينة إلى التسليم."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1837,13 +1848,13 @@
           "year": "01",
           "title": {
             "tr": "Ölçü",
-            "en": "Measure",
-            "ar": "قياس"
+            "en": "Measuring",
+            "ar": "القياس"
           },
           "text": {
-            "tr": "Oda ölçüsü ve yer planı.",
-            "en": "Room measure and placement plan.",
-            "ar": "قياس غرفة وخطة وضع."
+            "tr": "Keşif yapılır, oda ölçüsü ve yerleşim planı alınır.",
+            "en": "A survey is made and the room measurements and layout are taken.",
+            "ar": "تُجرى معاينة وتؤخذ مقاسات الغرفة ومخطط التوزيع."
           }
         },
         {
@@ -1854,35 +1865,35 @@
             "ar": "التصميم"
           },
           "text": {
-            "tr": "Ahşap ve kaplama seçimi.",
-            "en": "Wood and finishing choice.",
-            "ar": "اختيار خشب وتشطيب."
+            "tr": "Ahşap türü, renk ve kaplama seçilir; çizim onaya sunulur.",
+            "en": "Wood type, colour and finish are chosen and a drawing is presented for approval.",
+            "ar": "يُختار نوع الخشب واللون والتشطيب ويُعرض الرسم للموافقة."
           }
         },
         {
           "year": "03",
           "title": {
-            "tr": "Üretim",
-            "en": "Production",
-            "ar": "الإنتاج"
+            "tr": "Atölye üretimi",
+            "en": "Workshop production",
+            "ar": "التصنيع في الورشة"
           },
           "text": {
-            "tr": "Atölye yapımı ve cila.",
-            "en": "Workshop making and polish.",
-            "ar": "تصنيع ورشة وتلميع."
+            "tr": "Kesim, birleştirme, zımpara ve cila atölyede yapılır.",
+            "en": "Cutting, joining, sanding and finishing are done in the workshop.",
+            "ar": "يتم القص والتجميع والصنفرة والتشطيب في الورشة."
           }
         },
         {
           "year": "04",
           "title": {
-            "tr": "Kurulum",
+            "tr": "Montaj",
             "en": "Installation",
             "ar": "التركيب"
           },
           "text": {
-            "tr": "Montaj ve teslim.",
-            "en": "Assembly and handover.",
-            "ar": "تركيب وتسليم."
+            "tr": "Evinizde montaj yapılır; teslim tutanağı imzalanır.",
+            "en": "The furniture is installed in your home and a handover note is signed.",
+            "ar": "يُركَّب الأثاث في منزلك ويُوقَّع محضر التسليم."
           }
         }
       ],
@@ -1911,14 +1922,14 @@
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
         "accent": "var(--mx-site-primary, #2563eb)",
         "badge": {
-          "tr": "Ekibimiz",
-          "en": "Our team",
-          "ar": "فريقنا"
+          "tr": "Atölye ekibi",
+          "en": "Workshop team",
+          "ar": "فريق الورشة"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Mobilyanızı yapanlar",
+          "en": "The people who build your furniture",
+          "ar": "من يصنعون أثاثك"
         },
         "description": {
           "tr": "Kurgusal demo profiller.",
@@ -1932,42 +1943,42 @@
         {
           "name": "Selim A.",
           "role": {
-            "tr": "Atölye başı",
-            "en": "Workshop lead",
-            "ar": "رئيس ورشة"
+            "tr": "Atölye şefi",
+            "en": "Workshop chief",
+            "ar": "رئيس الورشة"
           },
           "bio": {
-            "tr": "16 yıl ahşap.",
-            "en": "16 years of wood.",
-            "ar": "١٦ عامًا في الخشب."
+            "tr": "Masif ahşap işlemede 16 yıl (kurgusal).",
+            "en": "16 years working solid wood (fictional).",
+            "ar": "16 عامًا في تشغيل الخشب الصلب (افتراضية)."
           },
           "img": ""
         },
         {
           "name": "Ayhan K.",
           "role": {
-            "tr": "Kaplama",
-            "en": "Finishing specialist",
-            "ar": "تشطيب"
+            "tr": "Cila ve kaplama ustası",
+            "en": "Finishing master",
+            "ar": "معلّم التشطيب"
           },
           "bio": {
-            "tr": "8 yıl cila.",
-            "en": "8 years of polish.",
-            "ar": "٨ سنوات في التلميع."
+            "tr": "Vernik ve doğal yağ uygulamasında 8 yıl (kurgusal).",
+            "en": "8 years in varnish and natural oil finishes (fictional).",
+            "ar": "8 سنوات في تطبيق الورنيش والزيوت الطبيعية (افتراضية)."
           },
           "img": ""
         },
         {
           "name": "Nevra D.",
           "role": {
-            "tr": "Nakliye",
-            "en": "Delivery and assembly",
-            "ar": "نقل"
+            "tr": "Keşif ve tasarım sorumlusu",
+            "en": "Survey and design lead",
+            "ar": "مسؤولة المعاينة والتصميم"
           },
           "bio": {
-            "tr": "4 yıl montaj.",
-            "en": "4 years of assembly.",
-            "ar": "٤ سنوات في التركيب."
+            "tr": "Ölçü alma ve yerleşim planında 4 yıl (kurgusal).",
+            "en": "4 years in measuring and layout planning (fictional).",
+            "ar": "4 سنوات في أخذ المقاسات وتخطيط التوزيع (افتراضية)."
           },
           "img": ""
         }
@@ -1998,9 +2009,9 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "starcolor": "#f59e0b",
         "badge": {
-          "tr": "Müşteri yorumları",
-          "en": "Customer reviews",
-          "ar": "تقييمات العملاء"
+          "tr": "Yorumlar",
+          "en": "Reviews",
+          "ar": "التقييمات"
         },
         "title": {
           "tr": "Müşterilerimiz ne diyor?",
@@ -2020,45 +2031,45 @@
           "name": "C. Ergin.",
           "role": {
             "tr": "Müşteri",
-            "en": "Client",
-            "ar": "زبون"
+            "en": "Customer",
+            "ar": "عميل"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Kaplama pürüzsüz; ölçü birebir.",
-            "en": "Finishing smooth; measure exact.",
-            "ar": "تشطيب ناعم؛ قياس مضاد."
+            "tr": "Mutfak dolapları ölçüye tam oturdu; cila pürüzsüzdü.",
+            "en": "The kitchen cabinets fitted the measurements exactly and the finish was smooth.",
+            "ar": "تناسبت خزائن المطبخ مع المقاسات تمامًا وكان التشطيب ناعمًا."
           }
         },
         {
           "name": "L. Yılmaz.",
           "role": {
             "tr": "Yeni ev",
-            "en": "New homeowner",
+            "en": "New home",
             "ar": "منزل جديد"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Kurulum aynı gün yapıldı.",
-            "en": "Installation was done the same day.",
-            "ar": "تم التركيب في نفس اليوم."
+            "tr": "Yatak odası takımı için keşfe geldiler; montaj söylenen günde bitti.",
+            "en": "They came for a survey for the bedroom set and the installation finished on the day promised.",
+            "ar": "جاؤوا لمعاينة طقم غرفة النوم وانتهى التركيب في اليوم الموعود."
           }
         },
         {
           "name": "B. Şahin.",
           "role": {
             "tr": "Ofis",
-            "en": "Office client",
+            "en": "Office",
             "ar": "مكتب"
           },
           "rating": 4,
           "img": "",
           "text": {
-            "tr": "Masa seti sağlam ve net.",
-            "en": "Table set is solid and clear.",
-            "ar": "طقم الطاولة متين وواضح."
+            "tr": "Toplantı masası sağlam; teslim biraz uzadı ama önceden haber verildi.",
+            "en": "The meeting table is sturdy; delivery took a little longer but we were told in advance.",
+            "ar": "طاولة الاجتماعات متينة؛ تأخر التسليم قليلًا لكنهم أبلغونا مسبقًا."
           }
         }
       ],
@@ -2103,19 +2114,19 @@
         "radius": "10px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Atölyeden örnekler",
+          "en": "From the workshop",
+          "ar": "من الورشة"
         },
         "title": {
           "tr": "Ne üretiyoruz?",
-          "en": "What do we produce?",
+          "en": "What do we make?",
           "ar": "ماذا نصنع؟"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Images are representative; text is fictional.",
+          "ar": "الصور تمثيلية والنصوص افتراضية."
         },
         "ctaLabel": {
           "tr": "Ayrıntı",
@@ -2126,16 +2137,16 @@
       "data": [
         {
           "baslik": {
-            "tr": "Ota mobilya",
-            "en": "Room furniture",
-            "ar": "أثاث غرفة"
+            "tr": "Salon ve oturma grupları",
+            "en": "Living room sets",
+            "ar": "أطقم الصالون والجلوس"
           },
           "metin": {
-            "tr": "Salon ve yatak odası seti.",
-            "en": "Living and bedroom set.",
-            "ar": "طقم صالة وغرفة نوم."
+            "tr": "Masif iskelet; kumaş ya da deri kaplama seçenekleri.",
+            "en": "Solid-wood frames with fabric or leather upholstery options.",
+            "ar": "هياكل من الخشب الصلب مع خيارات تنجيد بالقماش أو الجلد."
           },
-          "img": "dekor-lifestyle-1.webp",
+          "img": "dekor-kategori-2.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2145,16 +2156,16 @@
         },
         {
           "baslik": {
-            "tr": "Mutfa seti",
-            "en": "Kitchen set",
-            "ar": "طقم مطبخ"
+            "tr": "Yatak odası",
+            "en": "Bedroom",
+            "ar": "غرفة النوم"
           },
           "metin": {
-            "tr": "Açık ve kapalı mutfak.",
-            "en": "Open and closed kitchen.",
-            "ar": "مطبخ مفتوح ومغلق."
+            "tr": "Karyola, komodin ve gardırop; ölçüye göre.",
+            "en": "Bed, bedside tables and wardrobe, made to measure.",
+            "ar": "سرير وكومودينات وخزانة ملابس حسب المقاس."
           },
-          "img": "dekor-urun-koltuk.webp",
+          "img": "dekor-urun-dolap.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2164,14 +2175,14 @@
         },
         {
           "baslik": {
-            "tr": "İşyeri mobilyası",
-            "en": "Workspace furniture",
-            "ar": "أثاث مساحة عمل"
+            "tr": "Mutfak dolapları",
+            "en": "Kitchen cabinets",
+            "ar": "خزائن المطبخ"
           },
           "metin": {
-            "tr": "Masa ve ofis ünitesi.",
-            "en": "Table and office unit.",
-            "ar": "طاولة ووحدة مكتب."
+            "tr": "Alt-üst dolap ve ada; kapak ve tezgâh seçimi birlikte yapılır.",
+            "en": "Base and wall units and islands; doors and worktops are chosen together.",
+            "ar": "وحدات سفلية وعلوية وجزيرة؛ ويُختار الباب وسطح العمل معًا."
           },
           "img": "dekor-showroom.webp",
           "alt": {
@@ -2229,14 +2240,14 @@
         "radius": "10px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
-          "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "tr": "Birlikte çalıştığımız tedarikçiler",
+          "en": "Suppliers we work with",
+          "ar": "موردون نعمل معهم"
         },
         "description": {
-          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
-          "en": "Fictional partner names; they do not belong to a real organisation.",
-          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+          "tr": "Kurgusal tedarikçi adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional supplier names; they do not belong to a real organisation.",
+          "ar": "أسماء موردين افتراضية لا تعود إلى جهة حقيقية."
         },
         "listLabel": {
           "tr": "Referans logoları",
@@ -2246,22 +2257,22 @@
       },
       "data": [
         {
-          "name": "Demo Salon"
+          "name": "Demo Ahşap Pazarı"
         },
         {
-          "name": "Demo Mutfak"
+          "name": "Demo Mimarlık"
         },
         {
-          "name": "Demo Ofis"
+          "name": "Demo Kumaş Evi"
         },
         {
-          "name": "Demo Yatak"
+          "name": "Demo Hırdavat"
         },
         {
-          "name": "Demo Koltuk"
+          "name": "Demo Boya"
         },
         {
-          "name": "Demo Aydınlatma"
+          "name": "Demo Nakliye"
         }
       ],
       "veri": {
@@ -2304,51 +2315,91 @@
       },
       "data": [
         {
+          "question": {
+            "tr": "Özel ölçü üretiyor musunuz?",
+            "en": "Do you make to measure?",
+            "ar": "هل تصنعون حسب المقاس؟"
+          },
+          "answer": {
+            "tr": "Evet; ölçü yerinde alınır, çizim onayınızdan sonra üretime geçilir.",
+            "en": "Yes; measurements are taken on site and production starts after you approve the drawing.",
+            "ar": "نعم؛ تؤخذ المقاسات في الموقع ويبدأ التصنيع بعد موافقتك على الرسم."
+          },
           "soru": {
-            "tr": "Özel ölçü kabul ediliyor mu?",
-            "en": "Is custom measure accepted?",
-            "ar": "هل يُقبل القياس الخاص?"
+            "tr": "Özel ölçü üretiyor musunuz?",
+            "en": "Do you make to measure?",
+            "ar": "هل تصنعون حسب المقاس؟"
           },
           "cevap": {
-            "tr": "Evet; atölye ölçüsüyle üretim (demo).",
-            "en": "Yes; production with workshop measure (demo).",
-            "ar": "نعم؛ إنتاج بقياس الورشة (تجريبي)."
+            "tr": "Evet; ölçü yerinde alınır, çizim onayınızdan sonra üretime geçilir.",
+            "en": "Yes; measurements are taken on site and production starts after you approve the drawing.",
+            "ar": "نعم؛ تؤخذ المقاسات في الموقع ويبدأ التصنيع بعد موافقتك على الرسم."
           }
         },
         {
+          "question": {
+            "tr": "Teslim süresi ne kadar?",
+            "en": "How long does delivery take?",
+            "ar": "كم تستغرق مدة التسليم؟"
+          },
+          "answer": {
+            "tr": "İş kapsamına göre değişir; sipariş onayında yazılı tarih verilir (demo bilgi).",
+            "en": "It depends on the scope; a written date is given when the order is confirmed (demo information).",
+            "ar": "تختلف حسب حجم العمل؛ ويُعطى تاريخ مكتوب عند تأكيد الطلب (معلومة تجريبية)."
+          },
           "soru": {
-            "tr": "Kurulum ücreti var mı?",
-            "en": "Is there an installation fee?",
-            "ar": "هل توجد رسوم تركيب?"
+            "tr": "Teslim süresi ne kadar?",
+            "en": "How long does delivery take?",
+            "ar": "كم تستغرق مدة التسليم؟"
           },
           "cevap": {
-            "tr": "Mesafeye göre değişir; demo metin örnek vermez.",
-            "en": "It varies by distance; this demo text gives no example.",
-            "ar": "تتغير حسب المسافة؛ ولا يعطي هذا النص التجريبي مثالاً."
+            "tr": "İş kapsamına göre değişir; sipariş onayında yazılı tarih verilir (demo bilgi).",
+            "en": "It depends on the scope; a written date is given when the order is confirmed (demo information).",
+            "ar": "تختلف حسب حجم العمل؛ ويُعطى تاريخ مكتوب عند تأكيد الطلب (معلومة تجريبية)."
           }
         },
         {
+          "question": {
+            "tr": "Montaj ücretli mi?",
+            "en": "Is installation charged?",
+            "ar": "هل التركيب بمقابل؟"
+          },
+          "answer": {
+            "tr": "Montaj teklifte ayrı kalem olarak ya da dahil yazılır; mesafeye göre değişebilir (demo).",
+            "en": "Installation is written in the quote either as a separate item or included; it may vary with distance (demo).",
+            "ar": "يُذكر التركيب في العرض كبند منفصل أو مشمولًا؛ وقد يختلف حسب المسافة (تجريبي)."
+          },
+          "soru": {
+            "tr": "Montaj ücretli mi?",
+            "en": "Is installation charged?",
+            "ar": "هل التركيب بمقابل؟"
+          },
+          "cevap": {
+            "tr": "Montaj teklifte ayrı kalem olarak ya da dahil yazılır; mesafeye göre değişebilir (demo).",
+            "en": "Installation is written in the quote either as a separate item or included; it may vary with distance (demo).",
+            "ar": "يُذكر التركيب في العرض كبند منفصل أو مشمولًا؛ وقد يختلف حسب المسافة (تجريبي)."
+          }
+        },
+        {
+          "question": {
+            "tr": "Sitedeki görseller ve veriler gerçek midir?",
+            "en": "Are the images and data on the site real?",
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; bu bir demo sitedir. Görseller temsilî; adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a demo site. Images are representative; names, figures and people are fictional.",
+            "ar": "لا؛ هذا موقع تجريبي. الصور تمثيلية والأسماء والأرقام والأشخاص افتراضيون."
+          },
           "soru": {
             "tr": "Sitedeki görseller ve veriler gerçek midir?",
             "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
-            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
-            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
-          }
-        },
-        {
-          "soru": {
-            "tr": "Fiyatlar nasıl belirlenir?",
-            "en": "How are prices determined?",
-            "ar": "كيف تُحدَّد الأسعار?"
-          },
-          "cevap": {
-            "tr": "İhtiyacınıza göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
-            "en": "A quote based on your needs sets the price; a general range is not shown in this demo text.",
-            "ar": "يُحدَّد السعر عبر عرض سعر حسب احتياجاتك؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+            "tr": "Hayır; bu bir demo sitedir. Görseller temsilî; adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a demo site. Images are representative; names, figures and people are fictional.",
+            "ar": "لا؛ هذا موقع تجريبي. الصور تمثيلية والأسماء والأرقام والأشخاص افتراضيون."
           }
         }
       ],
@@ -2406,9 +2457,9 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "10px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Keşif ve teklif isteyin",
+          "en": "Request a survey and quote",
+          "ar": "اطلب معاينة وعرض سعر"
         },
         "description": {
           "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
@@ -2421,18 +2472,18 @@
           "ar": "Masif Mobilya"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Images are representative; text is fictional.",
+          "ar": "الصور تمثيلية والنصوص افتراضية."
         },
         "address": {
           "tr": "Atölye Sokak No: 27, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "27 Atolye Street, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع ورشة رقم 27، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "شارع الورشة رقم 27، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 020 01 10",
         "whatsapp": "903420200110",
-        "email": "odul@masif.example",
+        "email": "atolye@masif.example",
         "hours": {
           "tr": "Pzt–Cmt 09:00 – 19:00",
           "en": "Mon–Sat 09:00 – 19:00",
@@ -2477,9 +2528,9 @@
         },
         "social": [],
         "formTitle": {
-          "tr": "Teklif formu",
-          "en": "Quote form",
-          "ar": "نموذج الطلب"
+          "tr": "Keşif talep formu",
+          "en": "Survey request form",
+          "ar": "نموذج طلب معاينة"
         },
         "nameLabel": {
           "tr": "Ad Soyad",
@@ -2510,25 +2561,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Keşif ve ölçü",
+              "en": "Survey and measuring",
+              "ar": "معاينة وقياس"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Mutfak dolabı",
+              "en": "Kitchen cabinets",
+              "ar": "خزائن مطبخ"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Salon ve yatak odası",
+              "en": "Living room and bedroom",
+              "ar": "صالون وغرفة نوم"
             }
           },
           {
@@ -2615,7 +2666,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2639,32 +2691,32 @@
           "ar": "Masif Mobilya"
         },
         "description": {
-          "tr": "Masif Mobilya, mobilya ve mutfak üretir. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Masif produces furniture and kitchen. Images are representative and text is fictional.",
-          "ar": "ينتج مسيف أثاث ومطبخ. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Masif Mobilya, ölçüye özel ahşap mobilya ve mutfak üreten kurgusal bir demo atölyedir. Ürünler atölyede üretilir, evinizde monte edilir. Görseller temsilî, metinler kurgusaldır.",
+          "en": "Masif Mobilya is a fictional demo workshop making made-to-measure wooden furniture and kitchens. Pieces are built in the workshop and installed in your home. Images are representative and text is fictional.",
+          "ar": "ماسيف للأثاث ورشة تجريبية افتراضية تصنع أثاثًا خشبيًا ومطابخ حسب المقاس. تُصنع القطع في الورشة وتُركَّب في منزلك. الصور تمثيلية والنصوص افتراضية."
         },
         "name2": {
-          "tr": "Atölye",
-          "en": "Workshop",
-          "ar": "الورشة"
+          "tr": "Masif ahşap",
+          "en": "Solid wood",
+          "ar": "خشب صلب"
         },
         "spot2": {
-          "tr": "Ahşap ve kaplama aynı mekanda.",
-          "en": "Wood and finishing in the same space.",
-          "ar": "الخشب والتشطيب في المكان نفسه."
+          "tr": "Kurutulmuş ahşap kullanılır; kaplama türü teklifte yazılır.",
+          "en": "Dried timber is used; the finish type is stated in the quote.",
+          "ar": "يُستخدم خشب مجفف؛ ويُذكر نوع التشطيب في العرض."
         },
-        "icon2": "verified",
+        "icon2": "forest",
         "name3": {
-          "tr": "Ölçü defteri",
-          "en": "Measure book",
-          "ar": "دفتر القياس"
+          "tr": "Ölçü dosyası",
+          "en": "Measurement file",
+          "ar": "ملف المقاسات"
         },
         "spot3": {
-          "tr": "Her ürün için ölçü kaydı.",
-          "en": "A measure record for each product.",
-          "ar": "سجل قياس لكل منتج."
+          "tr": "Her sipariş için ölçü ve çizim kaydı tutulur.",
+          "en": "Measurements and drawings are kept for every order.",
+          "ar": "يُحتفظ بالمقاسات والرسومات لكل طلب."
         },
-        "icon3": "schedule",
+        "icon3": "straighten",
         "img": "dekor-urun-masa.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
@@ -2735,11 +2787,11 @@
         },
         "phone": "+90 342 020 01 10",
         "whatsapp": "903420200110",
-        "email": "odul@masif.example",
+        "email": "atolye@masif.example",
         "address": {
           "tr": "Atölye Sokak No: 27, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "27 Atolye Street, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع ورشة رقم 27، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "شارع الورشة رقم 27، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "mapsUrl": "",
         "waMessage": {
@@ -2753,9 +2805,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Pzt–Cmt 09:00 – 19:00",
+          "en": "Mon–Sat 09:00 – 19:00",
+          "ar": "الاثنين–السبت 09:00 – 19:00"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2783,9 +2835,9 @@
           "ar": "البريد الإلكتروني"
         },
         "mailText": {
-          "tr": "Teklif ve detaylı sorular için",
-          "en": "For quotes and detailed questions",
-          "ar": "لعروض الأسعار والأسئلة التفصيلية"
+          "tr": "Keşif ve teklif soruları için",
+          "en": "For survey and quote questions",
+          "ar": "لأسئلة المعاينة وعروض الأسعار"
         },
         "mailBtn": {
           "tr": "E-posta gönder",
@@ -2847,25 +2899,25 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "radius": "10px",
         "title": {
-          "tr": "Ahşapta durun",
-          "en": "Stay in the wood",
-          "ar": "ابقَ في الخشب"
+          "tr": "Odanızı birlikte ölçelim",
+          "en": "Let us measure your room together",
+          "ar": "لنقِس غرفتك معًا"
         },
         "text": {
-          "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
-          "en": "We reply within two business days. No data is stored on this demo site.",
-          "ar": "نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+          "tr": "Ölçü ve yerleşim için keşif tarihi isteyin; iki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
+          "en": "Ask for a survey date for measuring and layout; we reply within two business days. No data is stored on this demo site.",
+          "ar": "اطلب موعد معاينة للقياس والتوزيع؛ نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
         },
         "btn1Label": {
-          "tr": "Formu doldurun",
-          "en": "Fill the form",
-          "ar": "املأ النموذج"
+          "tr": "Keşif isteyin",
+          "en": "Request a survey",
+          "ar": "اطلب معاينة"
         },
         "btn1Url": "teklif-al",
         "btn2Label": {
-          "tr": "Hizmetleri gör",
-          "en": "See services",
-          "ar": "شاهد الخدمات"
+          "tr": "Ürünleri görün",
+          "en": "See our products",
+          "ar": "شاهد المنتجات"
         },
         "btn2Url": "hizmetler",
         "number": "903420200110",
@@ -2891,9 +2943,9 @@
           "ar": "ساعات العمل"
         },
         "waMessage": {
-          "tr": "Merhaba, Masif Mobilya ile iletişime geçmek istiyorum.",
-          "en": "Hello, I would like to get in touch with Masif Mobilya.",
-          "ar": "مرحبًا، أودّ التواصل مع Masif Mobilya."
+          "tr": "Merhaba, Masif Mobilya'dan ölçüye özel mobilya için bilgi almak istiyorum.",
+          "en": "Hello, I would like information about made-to-measure furniture from Masif Mobilya.",
+          "ar": "مرحبًا، أودّ الحصول على معلومات عن أثاث حسب المقاس من ماسيف للأثاث."
         },
         "img": "",
         "alt": {
@@ -2947,7 +2999,7 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "10px",
         "logo_maxh": "52px",
-        "logo_plate": false,
+        "logo_plate": true,
         "about": {
           "tr": "Masif Mobilya demo temadır; içerik kurgusaldır.",
           "en": "Masif Mobilya is a demo theme; the content is fictional.",
@@ -3056,10 +3108,10 @@
         "address": {
           "tr": "Atölye Sokak No: 27, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "27 Atolye Street, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع ورشة رقم 27، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "شارع الورشة رقم 27، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 020 01 10",
-        "email": "odul@masif.example",
+        "email": "atolye@masif.example",
         "social": [],
         "legal": [
           {

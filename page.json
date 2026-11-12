@@ -8,9 +8,9 @@
         "ar": "خدماتنا"
       },
       "description": {
-        "tr": "Ölçüden kurguya; atölyeden odaya.",
-        "en": "From measure to design; from workshop to room.",
-        "ar": "من القياس إلى التصميم؛ من الورشة إلى الغرفة."
+        "tr": "Ölçüden montaja; atölyeden eve.",
+        "en": "From measuring to installation; from workshop to home.",
+        "ar": "من القياس إلى التركيب؛ ومن الورشة إلى البيت."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -49,9 +49,9 @@
       },
       "pathnext": "",
       "description": {
-        "tr": "Mobilya ve mutfak; görseller temsilîdir.",
-        "en": "Furniture and kitchen; images are representative.",
-        "ar": "أثاث ومطبخ؛ الصور تمثيلية."
+        "tr": "Ölçüye özel ahşap mobilya ve mutfak; görseller temsilîdir.",
+        "en": "Made-to-measure wooden furniture and kitchens; images are representative.",
+        "ar": "أثاث خشبي ومطابخ حسب المقاس؛ الصور تمثيلية."
       }
     },
     {
