@@ -6,14 +6,14 @@
     "ar": "خدماتنا"
   },
   "description": {
-    "tr": "Ölçüden kurguya; atölyeden odaya.",
-    "en": "From measure to design; from workshop to room.",
-    "ar": "من القياس إلى التصميم؛ من الورشة إلى الغرفة."
+    "tr": "Ölçüden montaja; atölyeden eve.",
+    "en": "From measuring to installation; from workshop to home.",
+    "ar": "من القياس إلى التركيب؛ ومن الورشة إلى البيت."
   },
   "keyword": {
-    "tr": "Mobilya & Ahşap",
-    "en": "Furniture & Wood",
-    "ar": "أثاث وخشب"
+    "tr": "Atölye",
+    "en": "Workshop",
+    "ar": "الورشة"
   },
   "path": "hizmetler",
   "icon": "work",
@@ -36,5 +36,5 @@
     "ar": "خدماتنا"
   },
   "date": "2026-11-05T18:57:26.181Z",
-  "update": "2026-11-05T23:44:44.988Z"
+  "update": "2026-11-12T07:36:31.018Z"
 }

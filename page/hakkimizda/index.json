@@ -21,9 +21,9 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "Mobilya ve mutfak; görseller temsilîdir.",
-    "en": "Furniture and kitchen; images are representative.",
-    "ar": "أثاث ومطبخ؛ الصور تمثيلية."
+    "tr": "Ölçüye özel ahşap mobilya ve mutfak; görseller temsilîdir.",
+    "en": "Made-to-measure wooden furniture and kitchens; images are representative.",
+    "ar": "أثاث خشبي ومطابخ حسب المقاس؛ الصور تمثيلية."
   },
   "spot": {
     "tr": "",
@@ -42,6 +42,6 @@
     "ar": "من نحن"
   },
   "text": {},
-  "update": "2026-11-05T23:44:44.991Z",
+  "update": "2026-11-12T07:36:31.022Z",
   "date": "2026-10-30"
 }

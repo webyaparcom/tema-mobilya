@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Mobilya ve mutfak; görseller temsilîdir.",
-    "en": "Furniture and kitchen; images are representative.",
-    "ar": "أثاث ومطبخ؛ الصور تمثيلية."
+    "tr": "Masif Mobilya: ölçüye özel ahşap mobilya, mutfak ve ofis mobilyası; atölyeden montaja. Görseller temsilîdir.",
+    "en": "Masif Mobilya: made-to-measure wooden furniture, kitchens and office furniture, from workshop to installation. Images are representative.",
+    "ar": "ماسيف للأثاث: أثاث خشبي حسب المقاس ومطابخ وأثاث مكتبي، من الورشة إلى التركيب. الصور تمثيلية."
   },
   "keyword": {
-    "tr": "mobilya, ahşap, mutfak",
-    "en": "furniture, wood, kitchen",
-    "ar": "أثاث، خشب، مطبخ"
+    "tr": "ahşap mobilya, mutfak dolabı, ölçüye özel, atölye, montaj",
+    "en": "wooden furniture, kitchen cabinets, made to measure, workshop, installation",
+    "ar": "أثاث خشبي، خزائن مطبخ، حسب المقاس، ورشة، تركيب"
   },
   "category": "Kurumsal",
   "name": "Masif Mobilya",
