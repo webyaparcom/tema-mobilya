@@ -1,174 +1,113 @@
-<section class="modulex-testi">
-  <div class="modulex-testi-container">
-    <div class="modulex-testi-header">
-      <div class="modulex-testi-badge">{{badge}}</div>
-      <h2 class="modulex-testi-title">{{title}}</h2>
-      <p class="modulex-testi-desc">{{description}}</p>
-    </div>
-    <div class="modulex-testi-grid">
-      {{html}}
-    </div>
+<section class="modulex-yorum-sekme-kisi{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-yorum-sekme-kisi-ic">
+    {{fbbas}}
+    {{fbgovde}}
   </div>
 </section>
 
 <style>
-  .modulex-testi {
-    width: 100%;
-    padding: 80px 20px;
-    background: --bgcolor--;
-    box-sizing: border-box;
-  }
+  /* yorum-sekme-kisi — Kimlik önce: kişiler bir menü gibi listelenir, yorum seçilerek okunur (dikey sekme) — avatar şeridi ya da karusel değil. */
+  .modulex-yorum-sekme-kisi { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-yorum-sekme-kisi *, .modulex-yorum-sekme-kisi *::before, .modulex-yorum-sekme-kisi *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-yorum-sekme-kisi :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-yorum-sekme-kisi :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-yorum-sekme-kisi :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-yorum-sekme-kisi :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-yorum-sekme-kisi img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-yorum-sekme-kisi) img { height: auto; }
+  .modulex-yorum-sekme-kisi [hidden] { display: none !important; }
+  .modulex-yorum-sekme-kisi :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-yorum-sekme-kisi :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-yorum-sekme-kisi-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-yorum-sekme-kisi-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-yorum-sekme-kisi--bassiz .modulex-yorum-sekme-kisi-bas { display: none; }
+  .modulex-yorum-sekme-kisi-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-yorum-sekme-kisi-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-yorum-sekme-kisi-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-yorum-sekme-kisi-bas { max-width: 760px; }
+  .modulex-yorum-sekme-kisi-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-yorum-sekme-kisi-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-yorum-sekme-kisi-dugme:hover { transform: translateY(-2px); }
+  .modulex-yorum-sekme-kisi-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-yorum-sekme-kisi-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-yorum-sekme-kisi-dugme .material-symbols-outlined { font-size: 20px; }
 
-  .modulex-testi-container {
-    max-width: --max--;
-    margin: 0 auto;
-  }
+  .modulex-yorum-sekme-kisi-ad { font-weight: 700; }
+  .modulex-yorum-sekme-kisi-kisi { display: grid; gap: 2px; min-width: 0; }
+  .modulex-yorum-sekme-kisi-unvan { color: --muted--; font-size: 0.88rem; line-height: 1.45; }
+  .modulex-yorum-sekme-kisi-puan { display: flex; gap: 2px; color: --yildiz--; }
+  .modulex-yorum-sekme-kisi-puan .material-symbols-outlined { font-size: 20px; font-variation-settings: "FILL" 1; }
+  .modulex-yorum-sekme-kisi-yildiz--bos { opacity: 0.3; }
+  .modulex-yorum-sekme-kisi-avatar { flex: none; width: 52px; height: 52px; border-radius: 50%; object-fit: cover; }
+  .modulex-yorum-sekme-kisi-harf { display: inline-grid; place-items: center; background: color-mix(in srgb, --accent-- 18%, --kartBg--); color: --accentInk--; font-weight: 800; letter-spacing: 0.02em; }
+  .modulex-yorum-sekme-kisi-yazar { display: flex; align-items: center; gap: 12px; }
 
-  .modulex-testi-header {
-    text-align: center;
-    margin-bottom: 48px;
-  }
-
-  .modulex-testi-badge {
-    display: inline-block;
-    padding: 6px 18px;
-    background: --accent--;
-    color: --accentText--; /* 31 Eki: sabit beyaz → token */
-    border-radius: 50px;
-    font-size: 13px;
-    font-weight: 600;
-    margin-bottom: 16px;
-  }
-
-  .modulex-testi-title {
-    font-size: 36px;
-    font-weight: 800;
-    color: --titlecolor--;
-    margin: 0 0 12px;
-  }
-
-  .modulex-testi-desc {
-    font-size: 16px;
-    color: --textcolor--;
-    max-width: 640px;
-    margin: 0 auto;
-    line-height: 1.7;
-  }
-
-  .modulex-testi-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 24px;
-  }
-
-  .modulex-testi-card {
-    position: relative;
-    background: --cardbg--;
-    border: 1px solid --bordercolor--;
-    border-radius: 16px;
-    padding: 28px 24px 24px;
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-    box-sizing: border-box;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    animation: testiIn 0.5s ease both;
-  }
-
-  .modulex-testi-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 14px 36px rgba(0, 0, 0, 0.1);
-  }
-
-  @keyframes testiIn {
-    from { opacity: 0; transform: translateY(16px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-
-  .modulex-testi-quote {
-    position: absolute;
-    top: 14px;
-    right: 18px;
-    font-size: 52px;
-    line-height: 1;
-    color: --accent--;
-    opacity: 0.2;
-    font-family: Georgia, serif;
-  }
-
-  .modulex-testi-stars {
-    color: --starcolor--;
-    font-size: 15px;
-    letter-spacing: 2px;
-  }
-
-  .modulex-testi-text {
-    font-size: 14px;
-    line-height: 1.75;
-    color: --textcolor--;
-    margin: 0;
-    flex: 1;
-  }
-
-  .modulex-testi-person {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    border-top: 1px solid --bordercolor--;
-    padding-top: 14px;
-  }
-
-  .modulex-testi-avatar {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background: --accent--;
-    color: --accentText--; /* 31 Eki: sabit beyaz → token */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 700;
-    flex-shrink: 0;
-    overflow: hidden;
-  }
-
-  .modulex-testi-avatar img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .modulex-testi-name {
-    font-size: 15px;
-    font-weight: 700;
-    color: --titlecolor--;
-  }
-
-  .modulex-testi-role {
-    font-size: 12px;
-    color: --textcolor--;
-  }
-
+  .modulex-yorum-sekme-kisi-kap { display: grid; grid-template-columns: minmax(0, 340px) minmax(0, 1fr); gap: clamp(20px, 4vw, 48px); align-items: start; }
+  .modulex-yorum-sekme-kisi:not(.modulex-yorum-sekme-kisi--js) .modulex-yorum-sekme-kisi-kap { grid-template-columns: minmax(0, 1fr); }
+  .modulex-yorum-sekme-kisi:not(.modulex-yorum-sekme-kisi--js) .modulex-yorum-sekme-kisi-kisiler { display: none; }
+  .modulex-yorum-sekme-kisi-kisiler { display: grid; gap: 8px; }
+  .modulex-yorum-sekme-kisi-sekme { display: flex; align-items: center; gap: 12px; width: 100%; padding: 12px 14px; border: 1px solid transparent; border-inline-start: 4px solid transparent; border-radius: 14px; background: transparent; color: --text--; font: inherit; text-align: start; transition: background-color 0.25s ease, border-color 0.25s ease; }
+  .modulex-yorum-sekme-kisi-sekme:hover { background: color-mix(in srgb, --kartBg-- 60%, transparent); }
+  .modulex-yorum-sekme-kisi-sekme[aria-selected="true"] { border-color: --cizgi--; border-inline-start-color: --accent--; background: --kartBg--; }
+  .modulex-yorum-sekme-kisi-avatar { width: 46px; height: 46px; font-size: 0.9rem; }
+  .modulex-yorum-sekme-kisi-paneller { display: grid; gap: 16px; }
+  .modulex-yorum-sekme-kisi-panel { position: relative; display: grid; gap: 18px; padding: clamp(28px, 5vw, 56px); border-radius: --yuvarlak--; background: --kartBg--; animation: modulex-yorum-sekme-kisi-gel 0.45s ease both; }
+  .modulex-yorum-sekme-kisi-tirnak { position: absolute; inset-block-start: -10px; inset-inline-end: 28px; color: color-mix(in srgb, --accent-- 30%, transparent); font-family: Georgia, serif; font-size: 9rem; line-height: 1; }
+  .modulex-yorum-sekme-kisi-alinti { position: relative; font-family: var(--mx-font-heading, inherit); font-size: clamp(1.25rem, 2.2vw, 1.7rem); font-weight: 500; line-height: 1.5; }
+  .modulex-yorum-sekme-kisi--js .modulex-yorum-sekme-kisi-panel-yazar { display: none; }
+  @keyframes modulex-yorum-sekme-kisi-gel { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
   @media (max-width: 768px) {
-    .modulex-testi {
-      padding: 48px 14px;
-    }
-
-    .modulex-testi-title {
-      font-size: 26px;
-    }
-
-    [class*="modulex"] {
-      max-width: 100%;
-      box-sizing: border-box;
-    }
+    .modulex-yorum-sekme-kisi-kap { grid-template-columns: minmax(0, 1fr); }
+    .modulex-yorum-sekme-kisi-kisiler { grid-auto-flow: column; grid-auto-columns: minmax(200px, 72%); overflow-x: auto; scrollbar-width: none; }
+    .modulex-yorum-sekme-kisi-tirnak { font-size: 6rem; }
   }
 
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-yorum-sekme-kisi :is(.modulex-yorum-sekme-kisi-baslik, .modulex-yorum-sekme-kisi-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-yorum-sekme-kisi-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-yorum-sekme-kisi { padding-inline: 16px; }
+  }
   @media (prefers-reduced-motion: reduce) {
-    [class*="modulex"],
-    [class*="modulex"] * {
-      animation: none !important;
-      transition: none !important;
-    }
+    .modulex-yorum-sekme-kisi *, .modulex-yorum-sekme-kisi *::before, .modulex-yorum-sekme-kisi *::after { animation: none !important; transition: none !important; }
   }
 </style>
+<script>
+  (() => {
+    const P = "modulex-yorum-sekme-kisi";
+    const az = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+    const sekme = (s, P) => {
+        const t = [...s.querySelectorAll("[role=tab]")];
+        const p = [...s.querySelectorAll("[role=tabpanel]")];
+        if (!t.length) return;
+        s.classList.add(P + "--js");
+        const sec = (i, odak) => {
+          t.forEach((x, j) => { x.setAttribute("aria-selected", String(i === j)); x.tabIndex = i === j ? 0 : -1; });
+          p.forEach((x, j) => { x.hidden = i !== j; });
+          if (odak) t[i].focus();
+        };
+        sec(0);
+        t.forEach((x, i) => {
+          x.addEventListener("click", () => sec(i));
+          x.addEventListener("keydown", (e) => {
+            const rtl = getComputedStyle(s).direction === "rtl";
+            const ileri = rtl ? "ArrowLeft" : "ArrowRight";
+            const geri = rtl ? "ArrowRight" : "ArrowLeft";
+            let n = -1;
+            if (e.key === ileri || e.key === "ArrowDown") n = (i + 1) % t.length;
+            else if (e.key === geri || e.key === "ArrowUp") n = (i - 1 + t.length) % t.length;
+            else if (e.key === "Home") n = 0;
+            else if (e.key === "End") n = t.length - 1;
+            if (n > -1) { e.preventDefault(); sec(n, true); }
+          });
+        });
+      };
+    document.querySelectorAll("." + P).forEach((s) => {
+      if (s.dataset.fbHazir) return;
+      s.dataset.fbHazir = "1";
+      sekme(s, P, az);
+    });
+  })();
+</script>
